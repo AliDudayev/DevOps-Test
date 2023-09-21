@@ -52,4 +52,4 @@ jobs:
       - name: Deploy
         run: railway up
         env:
-          RAILWAY_TOKEN: ${{ secrets.ali }}
+          RAILWAY_TOKEN: ${{ secrets.ALI }}
